@@ -1,4 +1,4 @@
-fetch('./../gallery/navigation.html')
+fetch('./../mygallery/navigation.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#navbar");
