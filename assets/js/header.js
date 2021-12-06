@@ -1,5 +1,5 @@
 // Please change the gallery folder name to your deployed project root folder name
-fetch('./../mygallery/header.html')
+fetch('./../gallery/header.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#header-section");

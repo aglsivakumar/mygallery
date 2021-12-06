@@ -1,4 +1,4 @@
-fetch('./../mygallery/navigation.html')
+fetch('./../gallery/navigation.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#navbar");
@@ -9,7 +9,7 @@ fetch('./../mygallery/navigation.html')
     for(var elements=document.getElementsByClassName('active'),i=0,l=elements.length; l>i; i++) {
       elements[0].classList.remove("active");
     }
-    if(urlTotal.search("index.html")>0){
+    if(urlTotal.search("index1.html")>0){
         document.getElementById("indexitem").classList.add('active');
         document.getElementById("indexmenu").classList.add('active');
     }else if(urlTotal.search("about.html")>0){

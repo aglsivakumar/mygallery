@@ -5,6 +5,7 @@
 		<div id="wrapper">
 			<!-- Header -->
 			<script id="navbar" src="assets/js/navigation.js"></script>
+			<script id="navbar" src="assets/js/scrollButton.js"></script>
 			<div id="about" class="text-center">
 				<h2 class="text-center">About</h2>
 				<div class="content-block content-wrapper">
@@ -17,7 +18,7 @@
 					the faculty of Georgia State College where he teaches and lectures on 
 					issues in contemporary photography.</p></div>
 					<div><p>We are located at 59 Orchard Street, Clayton, CA 94517</p></div>
-					<div><p>Normal hours of operation:  Wednesday - Sunday, 12 - 6</p></div>
+					<div><p>Normal hours of operation:  <u>Wednesday - Sunday, 12 - 6</u></p></div>
 					<div><p>Phone: 925-333-5858     Fax: 925-333-6868</p></div>
 					<div><p><a href="#">info@kalegallery.com</a>  <a href="#">[Google Map]</a></p></div> 
 					<div> EVENT RENTAL</div>
@@ -49,7 +50,15 @@
 					<div><p>Thank you for your interest in joining our e-mail list.
 					Please fill in the information below, and when you click "Join" you'll
 					receive an e-mail confirmation from us.</p></div>
-					<div><p>Join Our Email List e-mail: </p></div>
+
+					<div><p>Join Our Email List e-mail: </p>
+						<form id="emailForm" >
+							<span> User Name: <input type="text" id="userName" required></span>
+							<span> Emai: <input id="email" type="email" required ></span>
+							<button type="button" onclick="submitUser()">Join</button>
+						</form>
+					</div>
+
 					<div><p>For Email Marketing you can trust</p></div>
 					<div class="content-end"><p>Copyright Information © 2015 Kale Gallery LLC. All copyrights for 
 					the images of the works on this site remain with the individual copyright
@@ -58,6 +67,7 @@
 					written permission of the individual copyright holders.</p></div>
 				</div>
 			</div>
+			<button onclick="topFunction()" id="scrollBtn" title="Go to top">Go To Top</button>
 		</div>
 	</body>
 </html>	

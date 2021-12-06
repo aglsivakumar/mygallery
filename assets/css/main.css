@@ -28,6 +28,11 @@ h2{
 a{
 	color:#2e68ff;
 }
+
+.landing-page{
+	background-image: url('assets/images/gallery.jpg');
+	height: 100%;
+}
 /*
  * default it should be hidden for mobile only visible
  */
@@ -395,4 +400,17 @@ figure{
 	}
 
 }
-
+#scrollBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #DADADA;
+	color: #000;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 15px;
+}
