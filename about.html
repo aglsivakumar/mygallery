@@ -23,7 +23,7 @@
 					<div><p><a href="#">info@kalegallery.com</a>  <a href="#">[Google Map]</a></p></div> 
 					<div> EVENT RENTAL</div>
 					<div><p>Kale Gallery is available for special event rentals. Please email 
-					inbox@kalegallery.com for more information.</p></div>
+					<a href="#">inbox@kalegallery.com</a> for more information.</p></div>
 					<div>SUBMISSION POLICY</div>
 					<div><p>Although Kale Gallery is no longer accepting submissions</div>
 					<div>We have started a "virtual" mentorship and coaching program. If you
@@ -53,8 +53,8 @@
 
 					<div><p>Join Our Email List e-mail: </p>
 						<form id="emailForm" >
-							<span> User Name: <input type="text" id="userName" required></span>
-							<span> Emai: <input id="email" type="email" required ></span>
+							<div id="name-block"><label> Name: </label><input type="text" id="userName" required/></div>
+							<div id="email-block"><label> Email: </label><input id="email" type="email" required /></div>
 							<button type="button" onclick="submitUser()">Join</button>
 						</form>
 					</div>
@@ -67,7 +67,7 @@
 					written permission of the individual copyright holders.</p></div>
 				</div>
 			</div>
-			<button onclick="topFunction()" id="scrollBtn" title="Go to top">Go To Top</button>
+			<input type="image" id="scrollBtn" onclick="topFunction()" src="assets/images/top_arrow.png" name="scrollBtn"/>
 		</div>
 	</body>
 </html>	
